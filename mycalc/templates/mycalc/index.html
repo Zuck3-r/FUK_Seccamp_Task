@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>足し算するよ</title>
+</head>
+<body>
+<form action="" method="POST">
+  <table>
+    {{ form.as_table }}
+  </table>
+  {% csrf_token %}
+  <button type="submit">計算</button>
+</form>
+  {{ ans }} </br>
+</body>
+</html>
