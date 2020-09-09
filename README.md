@@ -1,5 +1,5 @@
 # How to Start
 
-'''
-python manage.py runserver
-'''
+```
+$python manage.py runserver
+```
